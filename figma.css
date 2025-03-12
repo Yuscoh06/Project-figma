@@ -1,0 +1,445 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: rgb(235, 235, 235);
+}
+
+.nav-ul {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 550;
+  align-items: baseline;
+  color: rgb(29, 29, 148);
+  margin-right: -10rem;
+}
+
+.main-nav {
+  padding: 3rem 15rem;
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+  grid-template-columns: 0.6fr 2fr 0.5fr;
+  max-width: 100%;
+}
+
+.Log-in {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 15px;
+  font-weight: 550;
+  list-style: none;
+  gap: 2rem;
+  align-items: center;
+}
+
+.first {
+  color: orangered;
+  align-items: center;
+}
+
+.second {
+  color: #fff;
+  background-color: orangered;
+  padding: 1.3rem;
+  width: 8rem;
+  height: 4rem;
+  align-items: center;
+  box-shadow: 0 0 0.7rem 0.3rem rgba(250, 215, 186, 0.5);
+}
+
+.Logo {
+  font-size: 28px;
+  align-items: center;
+  font-weight: 600;
+  color: rgb(29, 29, 148);
+}
+
+.Section-hero {
+  max-width: 100%;
+  padding: 2rem 15rem;
+}
+
+.text-box {
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.intro {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text-1 {
+  font-size: 50px;
+  font-weight: 700;
+  padding-right: 5rem;
+  color: rgba(3, 3, 87, 0.979);
+}
+
+.text-2 {
+  font-size: 19.5px;
+  line-height: 1.5;
+  padding: 1.5rem 0;
+  align-items: end;
+}
+
+strong {
+  color: rgb(255, 30, 0);
+}
+
+.heros {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-size: cover;
+}
+
+.space-form {
+  padding-left: 15rem;
+  height: 50rem;
+}
+
+.form {
+  background-color: #10375c;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2.8rem;
+  width: 36rem;
+  z-index: 10;
+  height: 36rem;
+
+  margin: 6.5rem 0;
+  line-height: 2;
+  gap: 1.5rem;
+}
+
+.png {
+  z-index: 1;
+  height: 50rem;
+  width: 97rem;
+  margin-left: -12rem;
+}
+
+h2 {
+  color: white;
+  font-size: 29px;
+  font-weight: 600;
+  padding-top: -14rem;
+}
+
+.div-1 {
+  font-size: 15px;
+  color: #e6e6e6;
+}
+
+.locat {
+  color: #a5a5a4;
+}
+
+.div-form {
+  padding: 0.6rem 1rem;
+  align-items: center;
+  line-height: 1.3;
+  display: grid;
+  grid-template-columns: 9fr 1fr;
+  background-color: rgba(0, 0, 61, 0.226);
+}
+
+.div-btn {
+  background-color: transparent;
+  padding: 1rem;
+}
+
+.find-btn {
+  width: 29.5rem;
+  color: antiquewhite;
+  font-weight: bold;
+  text-transform: uppercase;
+  height: 4.2rem;
+  padding: 0 6.5rem;
+  text-decoration: none;
+  background-color: orangered;
+}
+
+.our-space {
+  padding: 0 15rem;
+  padding-top: 5rem;
+}
+
+.space-01 {
+  display: grid;
+  grid-template-columns: 0.65fr 1fr 0.3fr;
+  padding: 4rem 0;
+  gap: 3rem;
+  tab-size: 75%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #10375c;
+}
+
+.descr {
+  font-size: 18px;
+  align-items: center;
+  color: rgb(34, 34, 34);
+}
+
+.dire {
+  display: flex;
+  font-size: 26px;
+  align-items: center;
+  color: rgb(255, 51, 0);
+}
+
+.minus {
+  width: 50px;
+  margin-right: -3.2rem;
+}
+
+.dash {
+  padding: 0 15rem;
+  margin: 0 49rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.spc-img {
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.imgs {
+  background-image: url(space01.png);
+  background-size: cover;
+  width: 95%;
+  background-position: calc(55%);
+}
+
+.imgz {
+  background-image: url(space02.png);
+  background-size: cover;
+  width: 95%;
+  background-position: calc(55%);
+}
+
+.svgz {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.check {
+  font-size: 16px;
+  margin-right: 16rem;
+  margin-left: 0.85rem;
+  margin-top: -5.3rem;
+  padding: 2rem;
+  display: flex;
+  color: #fff;
+  gap: 1rem;
+  flex-direction: row;
+  align-items: center;
+}
+
+.no-one {
+  background-color: orangered;
+  margin-right: 27.8rem;
+  padding-top: 1.7rem;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -10.3rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.two {
+  margin-right: 29rem;
+}
+
+.oon {
+  margin-left: 1.5rem;
+}
+
+.last {
+  margin-left: 1.5rem;
+  margin-top: -8.3rem;
+}
+
+.right {
+  background-color: orangered;
+}
+
+.empty {
+  background-color: #10375c;
+  height: 40rem;
+  padding: 13rem 4.8rem;
+  color: antiquewhite;
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: -5rem;
+}
+
+.private {
+  color: #f5f2f2;
+  font-weight: 500;
+  font-size: 22px;
+  padding: 1.5rem 0;
+}
+
+.person {
+  color: #505050;
+  font-weight: 300;
+}
+
+.prv-desc {
+  line-height: 1.5;
+}
+
+.team {
+  font-size: 16px;
+  font-weight: bold;
+  color: #242424;
+  text-align: center;
+}
+
+.conz {
+  display: grid;
+  padding: 0 15rem;
+  align-items: center;
+  grid-template-columns: 1fr 0.5fr 1fr;
+}
+
+.mbili {
+  margin-left: -2rem;
+  color: rgb(210, 56, 0);
+}
+
+.pg-no {
+  font-size: 15px;
+  color: rgb(28, 28, 28);
+}
+
+.most {
+  display: grid;
+  text-align: center;
+  grid-template-rows: 0.1fr 0.1fr;
+}
+
+.no-1 {
+  margin-top: -2rem;
+  font-size: 12px;
+  color: #505050;
+}
+
+.vectors {
+  padding: 6rem 15rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.more-icons {
+  display: grid;
+  padding: 2rem 0;
+  row-gap: 3rem;
+  line-height: 1.5;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.plus {
+  font-size: 40px;
+  color: #10375c;
+  align-items: center;
+}
+
+.pluses {
+  font-size: 18px;
+  color: #707070;
+}
+
+.frispes {
+  background-color: #10375c;
+  padding: 5rem 6.2rem;
+}
+
+.why {
+  font-size: 17.5px;
+  color: rgb(255, 255, 255);
+}
+
+.both {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 2.5fr;
+}
+
+.head-5 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.insight {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  padding-top: 4rem;
+}
+
+.all-in {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+}
+
+.label {
+  align-items: center;
+  padding-top: 0.1rem;
+}
+
+
+
+.our-facility{
+  padding: 0 15rem;
+}
+
+
+.our{
+  display: flex;
+  gap: 1rem;
+  font-size: 16px;
+  align-items: center;
+  text-align: center;  
+  color: #123453;
+  color: rgb(80, 80, 80);
+}
+
+.end{
+margin-left: -2.7rem;
+}
+
+.all{
+  font-size: 30px;
+}
